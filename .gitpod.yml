@@ -2,5 +2,6 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
+  - init: sudo docker-up
   - init: script/setup
   - command: script/server
