@@ -6,4 +6,4 @@ tasks:
     name: docker
   - init: script/setup
     name: setup
-  - command: script/server
+    command: script/server
